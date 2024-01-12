@@ -10,7 +10,6 @@ readme = "README.md"
 homepage = "https://github.com/admercs/turnip-rs"
 repository = "https://github.com/admercs/turnip-rs"
 license = "MIT"
-license-file = "LICENSE"
 keywords = ["ternary", "operators", "utilities", "library"]
 categories = ["algorithms", "development-tools"]
 
