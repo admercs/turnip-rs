@@ -6,9 +6,9 @@
 
 Ternary operators (turnips) for Rust.
 
-Rather than use a functional procedural macro to create yet-another domain-specific syntax, we opt for the simplest possible solution. We provide recursion without additional function calls and do not extend the Rust syntax, which does not support the `?` and `:` operators for this use case.
+Rather than creating a functional procedural macro to parse yet-another domain-specific syntax, I opt for the simplest possible solution. The chosen approach provides recursion without additional function calls and does not extend the Rust syntax, which does not support the `?` and `:` operators for this use case.
 
-Our solution is a single 16-line macro defined using `macro_rules!`. [See for yourself](./src/lib.rs).
+The solution is a single 16-line macro defined using `macro_rules!`. [See for yourself](./src/lib.rs). Unlike other solutions out there, such as [terny](https://github.com/KaitlynEthylia/terny), [tern](https://github.com/lmburns/tern), [iffy](https://github.com/zfzackfrost/iffy-rs) and [ternop](https://github.com/spacekookie/ternop.rs), this one provides recursion without additional top-level function calls, more closely matching the ternary operator design pattern.
 
 What more do you need?
 
