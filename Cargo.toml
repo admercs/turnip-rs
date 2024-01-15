@@ -1,6 +1,6 @@
 [package]
 name = "turnip"
-version = "1.0.2"
+version = "1.1.0"
 edition = "2021"
 authors = ["Adam Erickson <adam.michael.erickson@gmail.com>"]
 rust-version = "1.56.0"
