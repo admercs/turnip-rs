@@ -20,30 +20,29 @@ cargo add turnip
 
 ## Usage
 
-Create an empty crate and add `turnip`:
+Create a new crate and add `turnip`:
 
 ```shell
 cargo init
 cargo add turnip
 ```
 
-Edit `src/main.rs` as follows:
+Open `src/main.rs` and import the `ifelse!` macro:
 
 ```rust
 // main.rs
-
 use turnip::ifelse;
 
 fn main() {
 
-    result1: bool = ifelse!(10 < 0, true, false);
-    result2: bool = ifelse!(10 < 0, true, 10 == 0, true, false);
+    let result1: bool = ifelse!(10 < 0, true, false);
+    let result2: bool = ifelse!(10 < 0, true, 10 == 0, true, false);
     assert!(result1 == result2);
 
 }
 ```
 
-Compile and run it:
+Compile and run the project:
 
 ```shell
 cargo build

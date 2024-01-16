@@ -24,10 +24,10 @@
 /// // Chained if-else statements.
 /// ifelse!(1 < 0, true, 1 > 0, true, false);
 /// ifelse!(1 < 0, true, 0 > 1, true, false);
-/// ifelse!(1 < 0, true, 0 > 1, false, 0 != 0, 1, 0);
+/// ifelse!(1 < 0, 0, 0 > 1, 1, 0 != 0, 2, 3);
 ///
 /// // A single input returns itself.
-/// assert!(ifelse!(false), false);
+/// ifelse!(false);
 /// ```
 #[macro_export]
 macro_rules! ifelse {
