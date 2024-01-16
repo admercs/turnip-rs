@@ -16,6 +16,8 @@
 /// # Examples
 ///
 /// ```
+/// use turnip::ifelse;
+/// 
 /// // A single if-else statement.
 /// ifelse!(1 < 0, true, false);
 ///

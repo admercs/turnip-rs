@@ -15,12 +15,23 @@ What more do you need?
 ## Installation
 
 ```shell
-$ cargo add turnip
+cargo add turnip
 ```
 
 ## Usage
 
+Create an empty crate and add `turnip`:
+
+```shell
+cargo init
+cargo add turnip
+```
+
+Edit `src/main.rs` as follows:
+
 ```rust
+// main.rs
+
 use turnip::ifelse;
 
 fn main() {
@@ -30,6 +41,13 @@ fn main() {
     assert!(result1 == result2);
 
 }
+```
+
+Compile and run it:
+
+```shell
+cargo build
+cargo run
 ```
 
 ## License
