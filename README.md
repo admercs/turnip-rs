@@ -51,6 +51,13 @@ cargo build
 cargo run
 ```
 
+# Existing Approaches
+
+* [tern](https://github.com/lmburns/tern)
+* [terny](https://github.com/KaitlynEthylia/terny)
+* [iffy-rs](https://github.com/zfzackfrost/iffy-rs)
+* [built-in](https://github.com/rust-lang/rust/issues/69545)
+
 ## License
 
 MIT License
