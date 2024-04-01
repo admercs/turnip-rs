@@ -1,5 +1,7 @@
 # turnip-rs
 
+[![CI][CI-img]][CI-url]
+
 <div align="center">
     <img src="./media/turnip.png" width="25%" height="auto" alt="turnip"</img> 
 </div>
@@ -52,3 +54,6 @@ cargo run
 ## License
 
 MIT License
+
+[CI-img]: https://github.com/admercs/turnip-rs/actions/workflows/rust.yml/badge.svg
+[CI-url]: https://github.com/admercs/turnip-rs/actions/workflows/rust.yml
