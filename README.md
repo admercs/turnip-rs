@@ -2,11 +2,11 @@
 
 [![CI][CI-img]][CI-url]
 
+Ternary operators (turnips) for Rust.
+
 <div align="center">
     <img src="./media/turnip.png" width="25%" height="auto" alt="turnip"</img> 
 </div>
-
-Ternary operators (turnips) for Rust.
 
 Rather than creating a functional procedural macro to parse yet-another domain-specific syntax (a language within a language), `turnip` provides the simplest possible solution. The result is recursion without additional function calls and consistency with Rust syntax rules, which does not support overloading the `?` and `:` operators.
 
